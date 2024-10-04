@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 
@@ -31,6 +32,8 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #807b51;
+    margin: 40px;
+    border-radius: 10px;
 }
 
 
@@ -48,11 +51,16 @@ header {
 
 header h1 {
     font-size: 3em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 129, 58, 0.5);
     padding: 20px;
 }
+.categoria{
+    color: #4e4c4c;
+}
 
-
+.Tendencias{
+    color: #4e4c4c;
+}
 section {
     padding: 20px;
     text-align: center;
@@ -63,22 +71,22 @@ section h2 {
 }
 
 
-.categories, .productos {
+.categorias, .productos {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
 }
 
-.categories div, .productos div {
+.categorias div, .productos div {
     width: 30%;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #4e4c4c;
     border-radius: 10px;
 }
 
 
 footer {
-    background-color: #333;
+    background-image: url('footer.jpg');
     color: white;
     padding: 20px;
     text-align: center;
