@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     margin: 0;
@@ -32,7 +32,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #807b51;
-    margin: 40px;
+    margin: 30px;
     border-radius: 10px;
 }
 
@@ -53,6 +53,7 @@ header h1 {
     font-size: 3em;
     background-color: rgba(128, 129, 58, 0.5);
     padding: 20px;
+    border-radius: 10px;
 }
 .categoria{
     color: #4e4c4c;
@@ -83,7 +84,14 @@ section h2 {
     background-color: #4e4c4c;
     border-radius: 10px;
 }
-
+.eslo{
+    background-color: #57544098;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    
+}
 
 footer {
     background-image: url('footer.jpg');
