@@ -51,20 +51,25 @@ header {
 
 header h1 {
     font-size: 3em;
-    background-color: rgba(128, 129, 58, 0.5);
+    background-color: rgba(99, 99, 82, 0.623);
     padding: 20px;
     border-radius: 10px;
 }
-.categoria{
+.seccion{
     color: #4e4c4c;
+    background-color: #807b51af;
+    border-radius: 5px;
 }
 
-.Tendencias{
-    color: #4e4c4c;
+.imagen{
+    border-radius: 10px;
 }
+
+
 section {
     padding: 20px;
     text-align: center;
+    
 }
 
 section h2 {
@@ -81,7 +86,7 @@ section h2 {
 .categorias div, .productos div {
     width: 30%;
     padding: 20px;
-    background-color: #4e4c4c;
+    background-color: #4e4c4c8e;
     border-radius: 10px;
 }
 .eslo{
